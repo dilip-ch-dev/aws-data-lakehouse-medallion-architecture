@@ -1,0 +1,21 @@
+# Terraform state files - VERY IMPORTANT
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+
+# Terraform variables file (we will create this next)
+terraform.tfvars
+
+# General Terraform files
+.terraform/
+crash.log
+
+# Python cache & environment files
+__pycache__/
+.venv/
+.env
+
+# IDE and OS specific files
+.vscode/
+.idea/
+.DS_Store
